@@ -7,5 +7,3 @@ dwayne.greet();
 var kelly = new Person("Kelly Edwards", "onyx");
 kelly.greet();
 
-
-$("h1").remove();
