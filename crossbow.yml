@@ -1,0 +1,31 @@
+watch:
+  default:
+    before: ['bs:init']
+    watchers:
+      './app/assets/sass': ['build-css', 'bs:reload']
+      './app/index.html': ['bs:reload']
+
+tasks:
+  build-css: ['crossbow-sass']
+
+  build-js: ['webpack']
+
+  build-all: ['clean', 'build-css', 'build-js']
+
+  clean: '@sh rm -rf ./temp'
+
+  webpack: '@npm webpack'
+
+
+options:
+
+  bs:
+    init: 'bsInit'
+    proxy: 'dwayne.static'
+    reload: 'bsReload'
+
+
+  crossbow-sass:
+    input: './app/assets/sass/core.scss'
+    output: './app/temp/styles'
+
