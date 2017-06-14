@@ -10350,6 +10350,8 @@ return jQuery;
 "use strict";
 
 
+function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr2 = Array(arr.length); i < arr.length; i++) { arr2[i] = arr[i]; } return arr2; } else { return Array.from(arr); } }
+
 var $ = __webpack_require__(1);
 var Person = __webpack_require__(0);
 
@@ -10358,6 +10360,12 @@ dwayne.greet();
 
 var kelly = new Person("Kelly Edwards", "onyx");
 kelly.greet();
+
+[].concat(_toConsumableArray(document.querySelectorAll('div[data-image]'))).forEach(function (element) {
+    var image = element.dataset.image;
+    console.log({ element: element });
+    element.style['backgroundImage'] = 'url("' + image + '")';
+});
 
 /***/ })
 /******/ ]);

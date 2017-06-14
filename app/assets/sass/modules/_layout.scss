@@ -1,4 +1,12 @@
 html {
-  max-width: 1204px;
+  max-width: 1200px;
 }
 
+.wrapper {
+  @media(min-width: 2500px)  {
+    display: grid;
+    grid-template-columns: repeat(2, 1200px);
+    grid-gap: $double-base-spacing * 5;
+  }
+
+}

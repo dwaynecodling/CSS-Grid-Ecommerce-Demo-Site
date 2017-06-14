@@ -1,6 +1,10 @@
 @import "normalize.css";
-@import url('https://fonts.googleapis.com/css?family=Open+Sans|Playfair+Display+SC');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400|Playfair+Display:400,700');
 @import "common/vars";
 @import "base/global";
 @import "modules/layout";
+@import "theme/catalogue-block";
+@import "theme/items-block";
 @import "theme/product-block";
+@import "theme/brand-block";
+
