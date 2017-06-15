@@ -1,8 +1,11 @@
-html {
+body {
   max-width: 1200px;
+  margin: 0 auto;
 }
 
 .wrapper {
+  padding: 0 $base-spacing;
+
   @media(min-width: 2500px)  {
     display: grid;
     grid-template-columns: repeat(2, 1200px);
