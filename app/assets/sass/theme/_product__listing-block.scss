@@ -1,6 +1,6 @@
 .product__listing-block {
 
-  @media (min-width: 760px) {
+  @media (min-width: 480px) {
     display: grid;
     grid-template-columns: repeat(1, 150px 1fr);
     grid-gap: $double-base-spacing * 2;
@@ -13,7 +13,8 @@
   margin: 0;
   text-align: center;
   background-color: $brand-primary;
-  height: 318px;
+  height: 250px;
+  margin-bottom: $double-base-spacing;
 
 }
 
@@ -33,6 +34,10 @@
 
 }
 
+.product__item {
+  text-align: center;
+
+}
 .products {
 
   list-style-type: none;
@@ -48,7 +53,9 @@
 
 }
 
+
 .product__filter-item{
+
   &:hover {
     background-color: $brand-secondary;
   }
@@ -57,7 +64,24 @@
   }
 }
 
+.product__item-info {
+  margin: 0;
+  background-color: $brand-primary;
+  padding: $base-spacing / 2;
+  font-family: $serif;
+  text-transform: uppercase;
+  letter-spacing: .5px;
+  color: $grey;
 
+}
+.product__item-price {
+  margin: 0;
+  background-color: $brand-primary;
+  padding: $base-spacing;
+  margin-bottom: $base-spacing / 2;
+  font-family: $sans;
+  color: $white;
+}
 
 
 

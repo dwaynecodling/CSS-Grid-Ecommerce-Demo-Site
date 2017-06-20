@@ -12,14 +12,15 @@ function bs(opts, ctx, done) {
             done();
 
         });
-
-
     }
 
     if (opts.reload) {
-        browserSync.reload();
+        if (opts.css) {
+            browserSync.reload('core.css');
+        } else {
+            browserSync.reload();
+        }
         done();
-
     }
 }
 

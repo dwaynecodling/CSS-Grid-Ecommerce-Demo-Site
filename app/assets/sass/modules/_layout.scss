@@ -1,15 +1,21 @@
 body {
-  max-width: 1200px;
   margin: 0 auto;
+
+
 }
 
 .wrapper {
+  margin: 0 auto;
+  max-width: 1200px;
   padding: 0 $base-spacing;
 
-  @media(min-width: 2500px)  {
+  @media(min-width: 2400px)  {
+    max-width: 2400px;
     display: grid;
     grid-template-columns: repeat(2, 1200px);
-    grid-gap: $double-base-spacing * 5;
+    grid-gap: $double-base-spacing;
+
+
   }
 
 }

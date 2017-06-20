@@ -10388,25 +10388,5 @@ item.each(function ($i) {
     });
 });
 
-// var item = $('.product__filter-item a');
-//
-// item.each(function($i) {
-//     var $this = $(this);
-//
-//     $this.hover(function(){
-//         $this.attr('href');
-//         const hashValue = $this.attr('href').replace(/$#/,'');
-//         const currentUrl = new URL(location.href);
-//         currentUrl.hash = hashValue;
-//         location.replace(currentUrl);
-//
-//             $this.toggleClass('active');
-//             $('.products').toggleClass('grid-' + $i);
-//
-//
-//     });
-// });
-//
-
 /***/ })
 /******/ ]);
