@@ -150,8 +150,8 @@
               <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/docs/index.html">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="136">
-                      <caret line="8" column="50" lean-forward="true" selection-start-line="8" selection-start-column="50" selection-end-line="8" selection-end-column="50" />
+                    <state relative-caret-position="691">
+                      <caret line="424" column="7" lean-forward="true" selection-start-line="424" selection-start-column="7" selection-end-line="424" selection-end-column="7" />
                       <folding />
                     </state>
                   </provider>
@@ -633,7 +633,7 @@
       <workItem from="1497430014434" duration="65134000" />
       <workItem from="1497856308836" duration="15866000" />
       <workItem from="1498027634151" duration="1075000" />
-      <workItem from="1499079216085" duration="968000" />
+      <workItem from="1499079216085" duration="1054000" />
     </task>
     <task id="LOCAL-00001" summary="updated files">
       <created>1496935913394</created>
@@ -705,11 +705,18 @@
       <option name="project" value="LOCAL" />
       <updated>1499084063175</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary=" move to docs folder to top of folder structure.">
+      <created>1499084218049</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1499084218049</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="147175000" />
+    <option name="totallyTimeSpent" value="147261000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="2560" height="1337" extended-state="6" />
@@ -1152,8 +1159,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/docs/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="50" lean-forward="true" selection-start-line="8" selection-start-column="50" selection-end-line="8" selection-end-column="50" />
+        <state relative-caret-position="691">
+          <caret line="424" column="7" lean-forward="true" selection-start-line="424" selection-start-column="7" selection-end-line="424" selection-end-column="7" />
           <folding />
         </state>
       </provider>
