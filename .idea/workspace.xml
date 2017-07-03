@@ -150,8 +150,8 @@
               <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/docs/index.html">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="691">
-                      <caret line="424" column="7" lean-forward="true" selection-start-line="424" selection-start-column="7" selection-end-line="424" selection-end-column="7" />
+                    <state relative-caret-position="187">
+                      <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
                       <folding />
                     </state>
                   </provider>
@@ -451,7 +451,11 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
+              <option name="myItemId" value="docs" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scripts" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -633,7 +637,7 @@
       <workItem from="1497430014434" duration="65134000" />
       <workItem from="1497856308836" duration="15866000" />
       <workItem from="1498027634151" duration="1075000" />
-      <workItem from="1499079216085" duration="1054000" />
+      <workItem from="1499079216085" duration="1360000" />
     </task>
     <task id="LOCAL-00001" summary="updated files">
       <created>1496935913394</created>
@@ -712,11 +716,18 @@
       <option name="project" value="LOCAL" />
       <updated>1499084218049</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Updated JS link">
+      <created>1499084316355</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1499084316355</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="147261000" />
+    <option name="totallyTimeSpent" value="147567000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="2560" height="1337" extended-state="6" />
@@ -775,7 +786,8 @@
     <MESSAGE value="Slight styling changes" />
     <MESSAGE value="added docs folder, for site" />
     <MESSAGE value=" move to docs folder to top of folder structure." />
-    <option name="LAST_COMMIT_MESSAGE" value=" move to docs folder to top of folder structure." />
+    <MESSAGE value="Updated JS link" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated JS link" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1089,14 +1101,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/sass/theme/_product-grid-0.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="1" lean-forward="true" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="566">
@@ -1157,10 +1161,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/sass/theme/_product-grid-0.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="1" lean-forward="true" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/docs/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="691">
-          <caret line="424" column="7" lean-forward="true" selection-start-line="424" selection-start-column="7" selection-end-line="424" selection-end-column="7" />
+        <state relative-caret-position="187">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding />
         </state>
       </provider>
