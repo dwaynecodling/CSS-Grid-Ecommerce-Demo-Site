@@ -40,7 +40,9 @@
 .welcome__header {
   font-family: $header-h2-base-font;
   font-size: $header-h1-base-size;
+ line-height: 30px;
   color: $white;
+  text-shadow: 2px 2px $black;
   text-transform: lowercase;
   padding: 0;
   margin: 0;
@@ -49,6 +51,7 @@
 .welcome__header--small {
   font-size: $small-font-size;
   text-transform: uppercase;
+  line-height: $small-font-size * 2;
 
 }
 
