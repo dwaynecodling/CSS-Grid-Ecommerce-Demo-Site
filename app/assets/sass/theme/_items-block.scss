@@ -83,6 +83,7 @@
 }
 
 .item__price-box {
+  padding: $base-spacing;
   background-color: $brand-primary;
   @media(min-width: 760px)  {
     display: flex;

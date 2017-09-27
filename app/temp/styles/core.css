@@ -261,7 +261,10 @@ menu {
   display: none;
 }img {
   max-width: 100%;
-  display: block; }body {
+  display: block; }pre {
+  font-size: 0.5em;
+  background-color: #b3d4d3;
+  padding: 10px; }body {
   margin: 0 auto; }.wrapper {
   margin: 0 auto;
   max-width: 1200px;
@@ -415,6 +418,7 @@ menu {
     z-index: 2; } }.item__header {
   text-transform: uppercase;
   font-weight: bold; }.item__price-box {
+  padding: 10px;
   background-color: #e4d2cd; }@media (min-width: 760px) {
     .item__price-box {
       display: -webkit-box;
